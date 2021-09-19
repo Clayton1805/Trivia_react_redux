@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json .",
-    "predeploy": "npm install",
+    "predeploy": "npm run build" ,
     "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
@@ -65,5 +65,6 @@
       "text",
       "clover"
     ]
-  }
+  },
+  "homepage": "https://clayton1805.github.io/Trivia_react_redux/"
 }
